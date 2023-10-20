@@ -2,7 +2,7 @@
 
 ![Demo](demo.gif)
 
-PrimordialLifeSim is a fascinating simulation project that replicates the emergence of life using kinetic particles. It offers an interactive experience to explore the beauty of self-organization and adaptation.
+Primordial Kinetic life is a fascinating simulation project that replicates the emergence of life using kinetic particles. It offers an interactive experience to explore the beauty of self-organization and adaptation using simple(pssibly asymmetrical) laws of attraction and repulsion.
 
 ## Technologies Used
 
