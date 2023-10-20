@@ -42,6 +42,8 @@ dotnet run
 ## License
 This project is licensed under the [Apache 2.0 License](Licence.txt).
 
-Acknowledgements
+## Acknowledgements
 [Raylib](https://raylib.com)
 [ImGui.NET](https://github.com/ImGuiNET/ImGui.NET)
+## Inspired by
+[Ventrella's Clusters](https://www.ventrella.com/Clusters/)
