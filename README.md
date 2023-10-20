@@ -47,3 +47,4 @@ This project is licensed under the [Apache 2.0 License](Licence.txt).
 [ImGui.NET](https://github.com/ImGuiNET/ImGui.NET)
 ## Inspired by
 [Ventrella's Clusters](https://www.ventrella.com/Clusters/)
+Paper: [The Origin of Eukaryotic Cells](https://evolution.berkeley.edu/the-history-of-evolutionary-thought/1900-to-present/endosymbiosis-lynn-margulis/)
