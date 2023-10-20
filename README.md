@@ -1,4 +1,4 @@
-# PrimordialLifeSim
+# Primordial Kinetic Life Simulation
 
 ![Demo](demo.gif)
 
