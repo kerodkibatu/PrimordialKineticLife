@@ -21,7 +21,7 @@ class Simulation
         while (!rl.WindowShouldClose())
         {
             rl.BeginDrawing();
-            rl.ClearBackground(Color.DARKGRAY);
+            rl.ClearBackground(Color.BLACK);
             rlImGui.Begin();
             Update();
             GUI();
@@ -148,7 +148,7 @@ class Simulation
     {
         var L1 = T2A[L1i];
         var L2 = T2A[L2i];
-        foreach (var a in L1)
+        Parallel.ForEach(L1, (a) =>
         {
             Vector2 df = Vector2.Zero;
             foreach (var b in L2)
@@ -173,7 +173,7 @@ class Simulation
                 a.V *= -Vector2.UnitY;
                 a.P = new Vector2(a.P.X, a.P.Y < 0 ? 0 : a.P.Y > rl.GetScreenHeight() ? rl.GetScreenHeight() : a.P.Y);
             }
-        }
+        });
     }
 }
 class Atom
