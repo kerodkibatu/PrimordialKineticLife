@@ -25,7 +25,7 @@ Primordial Kinetic life is a fascinating simulation project that replicates the 
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repository or download the zip and extract to your chosen path:
 
 ```bash
 git clone [This Repo]
