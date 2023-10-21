@@ -1,26 +1,21 @@
 ﻿using ImGuiNET;
 using System.Numerics;
-using System.Runtime.Serialization.Formatters.Binary;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using Color = Raylib_cs.Color;
 internal class Program
 {
     [STAThread()]
     private static void Main(string[] args)
     {
-
         new Simulation().Start();
     }
 }
-
 class Simulation
 {
     public void Start()
     {
         rl.InitWindow(1024, 1024, "Primordial Kinetic Life");
         rl.SetTargetFPS(60);
-
         rlImGui.Setup(true, true);
         Init();
         while (!rl.WindowShouldClose())
@@ -31,10 +26,8 @@ class Simulation
             Update();
             GUI();
             rlImGui.End();
-
             rl.EndDrawing();
         }
-
         rlImGui.Shutdown();
         rl.CloseWindow();
     }
@@ -123,7 +116,6 @@ class Simulation
             }
         }
     }
-
     public void Update()
     {
         int idx = 0;
