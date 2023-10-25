@@ -50,6 +50,7 @@ class Simulation
     float[] FA = new float[16];
     int[] Counts = new int[4] { 100, 100, 100, 100 };
     float LocalFactor = 100;
+    float deltaTime = 1;
     class Save
     {
         public float[] FA { get; set; }
@@ -61,6 +62,7 @@ class Simulation
         ImGui.Begin($"Controller");
         ImGui.Text($"FPS: {rl.GetFPS()}");
         ImGui.DragFloat($"LocalFactor", ref LocalFactor);
+        ImGui.DragFloat($"Delta Time", ref deltaTime,0.01f);
         if (ImGui.Button("Reset"))
             Init();
         int idx = 0;
@@ -158,7 +160,7 @@ class Simulation
                 if (d > 0 && d < LocalFactor)
                 {
                     var F = g * 1 / d;
-                    df += dir * F;
+                    df += dir * F * deltaTime;
                 }
             }
             a.V = df * 0.5f;
