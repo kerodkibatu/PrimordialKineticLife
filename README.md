@@ -25,10 +25,10 @@ Primordial Kinetic life is a fascinating simulation project that replicates the 
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repository or download the zip and extract to your chosen path:
 
 ```bash
-git clone https://github.com/yourusername/PrimordialLifeSim.git
+git clone [This Repo]
 ```
 
 2. Build and run the project using a C# IDE or command line:
