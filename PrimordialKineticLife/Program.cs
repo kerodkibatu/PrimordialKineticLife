@@ -33,7 +33,6 @@ class Simulation
     }
     List<Atom> Atoms = new();
     Dictionary<string, List<Atom>> T2A = new();
-    Dictionary<string, float> Rules = new();
     public Simulation()
     {
 
