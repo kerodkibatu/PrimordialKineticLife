@@ -23,26 +23,59 @@ Primordial Kinetic life is a fascinating simulation project that replicates the 
 
 - [.NET SDK](https://dotnet.microsoft.com/download)
 
-### Installation
+Sure thing! Here's a casual installation section for your GitHub repo:
 
-1. Clone the repository or download the zip and extract to your chosen path:
+## Installation
 
-```bash
-git clone [This Repo]
-```
+### Method 1: Cloning and Running Locally
 
-2. Build and run the project using a C# IDE or command line:
-```ps
-dotnet run
-```
-## Usage
+1. **Clone the Repository**
+   
+   ```bash
+   git clone https://github.com/kerodkibatu/PrimordialKineticLife.git
+   ```
+   
+2. **Navigate to the Project Directory**
+
+   ```bash
+   cd PrimordialKineticLife
+   ```
+
+3. **Run the Project**
+
+   ```bash
+   dotnet run
+   ```
+   
+   This will build and run the project locally on your machine.
+
+### Method 2: Using a Released Version
+
+1. **Go to the Releases Section**
+
+   Head over to the [Releases](https://github.com/kerodkibatu/PrimordialKineticLife/releases) section of this repository.
+
+2. **Download the Desired Release**
+
+   Download the version you want to use from the list of releases.
+
+3. **Extract the Release Package**
+
+   Unzip the downloaded package to a location of your choice.
+
+4. **Run the Application**
+
+   Depending on the specific application, follow the provided instructions in the release notes or documentation.
+
+And that's it! You can choose either method that suits you best.
+### Usage
 - Launch the application.
 - Interact with the ImGui interface to adjust simulation parameters.
 - Observe the mesmerizing evolution of early life forms.
-## License
+### License
 This project is licensed under the [Apache 2.0 License](Licence.txt).
 
-## Acknowledgements
+### Acknowledgements
 - [Raylib](https://raylib.com)
 - [ImGui.NET](https://github.com/ImGuiNET/ImGui.NET)
 ## Inspired by
