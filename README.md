@@ -23,8 +23,6 @@ Primordial Kinetic life is a fascinating simulation project that replicates the 
 
 - [.NET SDK](https://dotnet.microsoft.com/download)
 
-Sure thing! Here's a casual installation section for your GitHub repo:
-
 ## Installation
 
 ### Method 1: Cloning and Running Locally
